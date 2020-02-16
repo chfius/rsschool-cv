@@ -1,0 +1,55 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px 40px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.photo,
+.author {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.author {
+  padding-left: 10px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 50%;
+}
+
+.contacts img {
+  height: 20px;
+  margin-right: 5px;
+
+  vertical-align: middle;
+}
+
+section {
+  margin: 10px auto;
+
+  border-top: solid 1px grey;
+}
+
+li {
+  margin: 5px auto;
+}
+
+.summary p {
+  margin-left: 20px;
+  padding-left: 20px;
+
+  border-left: solid 2px grey;
+}
+
+footer {
+  padding-top: 10px;
+
+  border-top: solid 1px grey;
+}
